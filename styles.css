@@ -14,8 +14,6 @@ body
     background: #ffffff;
     color: #333;
 }
-
-
 .navbar 
 {
     display: flex;
@@ -24,15 +22,14 @@ body
     align-items: center;
     border-radius: 50px;
 }
-
 .logo 
 {
     margin-right: 15px;
     font-weight: 700;
     color: #443be9ff;
 }
-
-nav a {
+nav a 
+{
     margin-left: 15px;
     text-decoration: none;
     color: #555;
@@ -40,8 +37,6 @@ nav a {
     border-radius: 50px;
     
 }
-
-
 .hero 
 {
     display: flex;
@@ -49,12 +44,10 @@ nav a {
     justify-content: space-between;
     padding: 80px;
 }
-
 .hero-text 
 {
     max-width: 50%;
 }
-
 .tag 
 {
     background: linear-gradient(90deg, #4f46e5, #ec4899);
@@ -63,26 +56,22 @@ nav a {
     font-size: 12px;
     border-radius: 20px;
 }
-
 .hero-text h1 
 {
     margin-top: 20px;
     font-size: 24px;
     font-weight: 400;
 }
-
 .hero-text h2 
 {
     font-size: 48px;
     color: #4f46e5;
     font-weight: 700;
 }
-
 .buttons 
 {
     margin-top: 25px;
 }
-
 .btn 
 {
     padding: 12px 30px;
@@ -91,20 +80,17 @@ nav a {
     cursor: pointer;
     margin-right: 15px;
 }
-
 .primary 
 {
     background: #4f46e5;
     color: white;
     border: none;
 }
-
 .outline 
 {
     background: transparent;
     border: 5px solid #ddd;
 }
-
 .hero-image img 
 {
     width: 420px;
@@ -112,50 +98,46 @@ nav a {
     background: linear-gradient(235deg, #4f46e5, #ec4899);
     padding: 25px;
 }
-
-
 .about 
 {
     text-align: center;
     padding: 80px 200px;
     background: #f9fafb;
 }
-
-.about h2 {
+.about h2 
+{
     font-size: 36px;
     color: #4f46e5;
 }
-
-.subtitle {
+.subtitle 
+{
     margin-top: 10px;
     font-weight: 500;
 }
-
-.description {
+.description 
+{
     margin-top: 15px;
     color: #666;
     line-height: 1.6;
 }
-
-.social-icons {
+.social-icons 
+{
     margin-top: 20px;
 }
-
-.social-icons a {
+.social-icons a 
+{
     font-size: 24px;
     margin: 0 10px;
     text-decoration: none;
 }
-
-/* Footer */
-footer {
+footer 
+{
     display: flex;
     justify-content: space-between;
     padding: 25px 80px;
     font-size: 14px;
     color: #666;
 }
-
 .footer-links a {
     margin-left: 15px;
     text-decoration: none;
